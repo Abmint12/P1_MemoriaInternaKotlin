@@ -1,15 +1,21 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+# Archivos de configuración de IntelliJ IDEA / Android Studio
+*.iml                          # Archivo de módulo de IntelliJ para cada proyecto/módulo
+.gradle                        # Carpeta con caché y archivos generados por Gradle
+/local.properties              # Configuración local (SDK path, claves, etc). ¡MUY importante no subir!
+/.idea/caches                  # Caché de IntelliJ
+/.idea/libraries               # Definición de librerías del proyecto (se regeneran)
+/.idea/modules.xml             # Estructura de módulos del proyecto
+/.idea/workspace.xml           # Tu configuración personal (ventanas abiertas, run configs, etc)
+/.idea/navEditor.xml           # Configuración del editor de navegación (Navigation component)
+/.idea/assetWizardSettings.xml # Configuraciones del asistente de assets
+.DS_Store                      # Archivos basura que crea macOS
+
+# Archivos generados por la compilación y herramientas
+/build                         # Toda la carpeta de compilación (lo más importante de ignorar)
+/captures                      # Capturas de pantalla automáticas del Layout Inspector
+
+# Archivos relacionados con compilación nativa (NDK / CMake)
+.externalNativeBuild           # Archivos generados por CMake/Android.mk
+.cxx                           # Carpeta temporal de compilación C/C++ (muy usada en proyectos con NDK)
+
+local.properties               # Repetido (a veces lo ponen arriba y abajo por costumbre)
